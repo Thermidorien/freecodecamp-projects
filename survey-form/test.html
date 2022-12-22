@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Survey</h1>
+        <p id="description">this is a survey form that I am writing for certification</p>
+
+        <form id="survey-form" action="">
+            <label for="choose">choose your type:</label><br>
+            <select name="choose" id="dropdown">
+                <option value="none">---</option>
+                <option value="germany">being totally insecure about your entire existence like germany right before ww1</option>
+                <option value="italy">switching sides like italy in ww1</option>
+            </select><br><br>
+            <label for="name" id="name-label">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="write name"><br><br>
+            <label for="email" id="email-label">Email:</label><br>
+            <input id="email" type="email" name="email" required placeholder="write email"><br><br>
+            <label for="number" id="number-label">Number:</label><br>
+            <input type="number" id="number" name="number" min="18" max="100" placeholder="write age"><br><br>
+            
+            <input type="radio" id="alpha" value="alpha" name="alpha" checked>
+            <input type="radio" id="alpha" value="alpha" name="alpha">
+            <label for="alpha">alpha</label><br>
+            <input type="radio" id="beta" value="beta" name="beta" checked>
+            <input type="radio" id="beta" value="beta" name="beta">
+            <label for="beta">beta</label><br><br>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br><br>
+            
+            <label for="testing-textarea">Test text area</label><br>
+            <textarea name="testing-textarea" id="testing-textarea" cols="30" rows="10"></textarea><br>
+
+            <button id="submit">submit</button>
+            <!--
+                    <input type="submit" id="submit"><br><br>
+            -->
+            
+
+        </form>
+
+</body>
+</html>
